@@ -154,3 +154,26 @@
     width: 20px;
     height: 20px;
 }
+
+
+.carousel-slider__text {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-slider__text i {
+    color: #fff;
+    font-size: 1.5em;
+    display: block;
+}
+
+.carousel-slider__text b {
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+    font-size: 1.5em;
+}
