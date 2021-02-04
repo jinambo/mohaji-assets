@@ -157,6 +157,7 @@
 
 
 .carousel-slider__text {
+  max-width: 1200px;
   margin: 0 auto;
   position: absolute;
   top: 50%;
@@ -175,4 +176,15 @@
     display: block;
     margin-top: 15px;
     font-size: 1.25em;
+}
+
+.star-rating {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.star-rating i {
+    margin: 7.5px;
+    font-size: 16px;
 }
