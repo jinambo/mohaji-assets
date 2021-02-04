@@ -160,7 +160,7 @@
   max-width: 1200px;
   margin: 0 auto;
   position: absolute;
-  top: 50%;
+  top: 47.5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -182,9 +182,10 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 7.5px;
 }
 
 .star-rating i {
-    margin: 7.5px;
+    margin: 5px;
     font-size: 16px;
 }
