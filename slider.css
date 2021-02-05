@@ -212,6 +212,7 @@
     margin-top: 20px;
 }
 .social-sites-icon {
+    position: relative;
     display: inline-block;
     cursor: pointer;
     width: 100px;
@@ -222,7 +223,13 @@
     margin: 0px 12px;
     transition: 0.7s;
 }
-
+.social-sites-icon a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .social-sites-icon:nth-child(3) i {
     color: #111;
 }
@@ -262,12 +269,12 @@
 }
 @keyframes shadow-pop-tr {
     0% {
-        box-shadow: 0 9px 18px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+        box-shadow: 0 9px 18px rgba(0, 0, 0, 0.175), 0 15px 12px rgba(0, 0, 0, 0.1);
         -webkit-transform: translateX(0) translateY(0);
         transform: translateX(0) translateY(0);
    }
     100% {
-        box-shadow: 0 9px 18px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+        box-shadow: 0 9px 18px rgba(0, 0, 0, 0.175), 0 15px 12px rgba(0, 0, 0, 0.1);
         -webkit-transform: translateX(-2px) translateY(2px);
         transform: translateX(-2px) translateY(2px);
    }
