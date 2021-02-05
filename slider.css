@@ -217,27 +217,22 @@
     margin: 0px 12px;
     transition: 0.7s;
 }
-.social-sites-icon:nth-child(2) i {
-    color: #f00;
-}
-.social-sites-icon:nth-child(2):hover {
-    background-color: #f00;
-}
+
 .social-sites-icon:nth-child(3) i {
-    color: #1dcaff;
+    color: #111;
 }
 .social-sites-icon:nth-child(3):hover {
-    background-color: #1dcaff;
+    background-color: #111;
 }
-.social-sites-icon:nth-child(4) i {
+.social-sites-icon:nth-child(2) i {
     background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.social-sites-icon:nth-child(4):hover {
+.social-sites-icon:nth-child(2):hover {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
-.social-sites-icon:nth-child(4):hover i {
+.social-sites-icon:nth-child(2):hover i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: #fff;
 }
