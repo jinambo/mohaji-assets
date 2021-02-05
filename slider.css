@@ -207,7 +207,7 @@
 }
 
 /* social sites icons */
-.icon {
+.social-sites-icon {
     display: inline-block;
     cursor: pointer;
     width: 130px;
@@ -217,31 +217,31 @@
     margin: 0px 12px;
     transition: 0.7s;
 }
-.icon:nth-child(2) i {
+.social-sites-icon:nth-child(2) i {
     color: #f00;
 }
-.icon:nth-child(2):hover {
+.social-sites-icon:nth-child(2):hover {
     background-color: #f00;
 }
-.icon:nth-child(3) i {
+.social-sites-icon:nth-child(3) i {
     color: #1dcaff;
 }
-.icon:nth-child(3):hover {
+.social-sites-icon:nth-child(3):hover {
     background-color: #1dcaff;
 }
-.icon:nth-child(4) i {
+.social-sites-icon:nth-child(4) i {
     background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.icon:nth-child(4):hover {
+.social-sites-icon:nth-child(4):hover {
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
-.icon:nth-child(4):hover i {
+.social-sites-icon:nth-child(4):hover i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: #fff;
 }
-.icon i {
+.social-sites-icon i {
     position: relative;
     left: 50%;
     top: 50%;
@@ -250,13 +250,13 @@
     color: #3b5998;
     transition: 0.7s;
 }
-.icon:hover {
+.social-sites-icon:hover {
     transition: 0.7s;
     background-color: #3b5998;
     -webkit-animation: shadow-pop-tr 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) both;
     animation: shadow-pop-tr 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) both;
 }
-.icon:hover i {
+.social-sites-icon:hover i {
     color: #fff;
     transition: 0.7s;
 }
