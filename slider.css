@@ -195,6 +195,6 @@
 }
 
 .splide__progress__bar {
-    background-color: #3d3d3d !important;
+    background: #3d3d3d !important;
     height: 2px !important;
 }
