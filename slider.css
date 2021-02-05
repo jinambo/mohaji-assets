@@ -267,8 +267,8 @@
    }
     100% {
         box-shadow: 0 9px 18px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
-        -webkit-transform: translateX(-6px) translateY(6px);
-        transform: translateX(-6px) translateY(6px);
+        -webkit-transform: translateX(-2px) translateY(2px);
+        transform: translateX(-2px) translateY(2px);
    }
 }
 
