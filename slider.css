@@ -209,7 +209,8 @@
 /* social sites icons */
 .social-sites-container {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .social-sites-icon {
     position: relative;
