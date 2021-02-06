@@ -315,7 +315,7 @@
     border: none !important;
     }
     .carousel-inner {
-        height: 75vh !important;
+        height: 50vh !important;
     }
     .carousel-inner>.item>img, .carousel-inner>.item>a>img {
         height: 100% !important;
