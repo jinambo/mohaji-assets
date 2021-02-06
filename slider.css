@@ -283,6 +283,35 @@
 
 
 /* responsive */
+@media (max-width: 768px) {
+    .navigation-buttons {
+        background-color: #2B2A27 !important;
+        position: relative !important;
+        justify-content: center !important;
+        border-top: 1px solid #45433f !important;
+    }
+    .navigation-buttons a[data-target="navigation"], .navigation-buttons a[data-target="login"] {
+    color: #fff !important;
+    background-color: transparent !important;
+    }
+    .banner-title {
+        text-align: center !important;
+        padding: 0 10px
+    }
+    .banner-title p {
+        width: 70% !important;
+    }
+    .menu-level-1 {
+        padding: 50px 12px !important;
+    }
+    .navigation-close {
+        padding: 2.25rem !important;
+    }
+    .navigation-buttons>a {
+    border: none !important;
+    }
+}
+
 @media (max-width: 480px) {
     .overall-wrapper {
         width: 100vw !important;
