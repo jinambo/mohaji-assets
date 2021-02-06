@@ -334,4 +334,10 @@
   .carousel-slider__text, .akce-banner {
       padding: 0 12px !important;
   }
+  .carousel-slider__prev, .carousel-slider__next {
+      display: none !important;
+  }
+  .carousel-slider__text i, .carousel-slider__text b {
+      font-size: 1.05em !important;
+  }
 }
