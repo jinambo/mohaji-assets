@@ -284,10 +284,14 @@
 
 /* responsive */
 @media (max-width: 768px) {
+    .container.navigation-wrapper {
+        max-width: 100% !important;
+    }
     .navigation-buttons {
         background-color: #2B2A27 !important;
         position: relative !important;
         justify-content: center !important;
+        border-right: none !important;
         border-top: 1px solid #45433f !important;
     }
     .navigation-buttons a[data-target="navigation"], .navigation-buttons a[data-target="login"] {
@@ -309,6 +313,19 @@
     }
     .navigation-buttons>a {
     border: none !important;
+    }
+    .carousel-inner {
+        height: 75vh !important;
+    }
+    .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        height: 100% !important;
+        width: auto !important;
+        max-width: none !important;
+    }
+    .extended-banner-link { text-align: center !important; }
+    .slider-text-center {
+    top: 50% !important;
+    font-size: 1.5em !important;
     }
 }
 
