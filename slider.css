@@ -305,6 +305,12 @@
     .banner-title p {
         width: 70% !important;
     }
+    .menu-level-1 {
+        padding: 50px 12px !important;
+    }
+    .navigation-close {
+        padding: 2.25rem !important;
+    }
     .navigation-buttons>a {
     border: none !important;
     }
