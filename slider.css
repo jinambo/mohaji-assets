@@ -284,8 +284,21 @@
 
 /* responsive */
 @media (max-width: 768px) {
+    .p-detail-inner {
+        padding: 20px !important;
+    }
+    .tab-content {
+        padding-bottom: 20px !important;
+    }
+    .footer-bottom {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
     .container.navigation-wrapper {
         max-width: 100% !important;
+    }
+    #signature {
+        margin-bottom: 7.5px !important;
     }
     .navigation-buttons {
         background-color: #2B2A27 !important;
@@ -330,6 +343,16 @@
 }
 
 @media (max-width: 480px) {
+    .slider-text-left, .slider-text-top {
+        font-size: 1em !important;
+    }
+    .slider-text-left b, .slider-text-top b {
+        font-size: 1.4em !important;
+        line-height: 115% !important;
+    }
+    .extended-banner-link {
+        font-size: 1em !important;
+    }
     .overall-wrapper {
         width: 100vw !important;
         overflow-x: hidden !important;
@@ -372,6 +395,7 @@
     .slider-text-center {
     top: 50% !important;
     font-size: 1.5em !important;
+    width: 95% !important;
     }
     .why-us-banner-inner {
         flex-direction: column !important;
