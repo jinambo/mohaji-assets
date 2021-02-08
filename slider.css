@@ -343,6 +343,12 @@
 }
 
 @media (max-width: 480px) {
+    .carousel-control.right {
+        right: 0 !important;
+    }
+    .carousel-control.left {
+        left: 0 !important;
+    }
     .slider-text-left, .slider-text-top {
         font-size: 1em !important;
     }
