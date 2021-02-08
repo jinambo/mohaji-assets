@@ -339,17 +339,20 @@
     }
     .extended-banner-link { text-align: center !important; }
     .slider-text-center {
-    top: 50% !important;
-    font-size: 1.5em !important;
+        top: 50% !important;
+        font-size: 1.5em !important;
     }
 }
 
 @media (max-width: 480px) {
     .slider-text-left, .slider-text-top {
-        font-size: 1em !important;
+        font-size: .9em !important;
+    }
+    .slider-text-left {
+        padding-right: 10px !important;
     }
     .slider-text-left b, .slider-text-top b {
-        font-size: 1.4em !important;
+        font-size: 1.15em !important;
         line-height: 115% !important;
     }
     .extended-banner-link {
