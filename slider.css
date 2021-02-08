@@ -352,7 +352,7 @@
         padding-right: 10px !important;
     }
     .slider-text-left b, .slider-text-top b {
-        font-size: 1.15em !important;
+        font-size: 1.35em !important;
         line-height: 115% !important;
     }
     .extended-banner-link {
@@ -398,9 +398,10 @@
     }
     .extended-banner-link { text-align: center !important; }
     .slider-text-center {
-    top: 50% !important;
-    font-size: 1.15em !important;
-    width: 95% !important;
+        top: 50% !important;
+        font-size: 1.15em !important;
+        width: 95% !important;
+        padding: 0 20px !important;
     }
     .why-us-banner-inner {
         flex-direction: column !important;
