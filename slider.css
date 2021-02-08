@@ -346,7 +346,7 @@
 
 @media (max-width: 480px) {
     .slider-text-left, .slider-text-top {
-        font-size: .9em !important;
+        font-size: .75em !important;
     }
     .slider-text-left {
         padding-right: 10px !important;
@@ -399,7 +399,7 @@
     .extended-banner-link { text-align: center !important; }
     .slider-text-center {
     top: 50% !important;
-    font-size: 1.5em !important;
+    font-size: 1.15em !important;
     width: 95% !important;
     }
     .why-us-banner-inner {
