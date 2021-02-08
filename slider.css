@@ -293,7 +293,10 @@
     .footer-bottom {
         padding-top: 15px !important;
         padding-bottom: 15px !important;
+        border: 1px solid #777 !important;
+        margin-bottom: 10px !important;
     }
+
     .container.navigation-wrapper {
         max-width: 100% !important;
     }
@@ -420,7 +423,13 @@
     .kontakt-bar-social {
     margin-top: 7.5px !important;
     }
-    .footer-navigation { flex-direction: column; }
+    .footer-navigation {
+        flex-direction: row !important;
+        flex-wrap: wrap !important; 
+    }
+    .footer-navigation li {
+        width: calc(50% - 15px) !important;
+    }
     .carousel-slider__text, .akce-banner {
         padding: 0 12px !important;
     }
