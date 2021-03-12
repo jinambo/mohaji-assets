@@ -73,7 +73,7 @@
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: url(https://www.mohaji.cz/wp-content/uploads/2016/11/coffee-beans-691262-1400x285.jpg);
+    background: url(https://raw.githubusercontent.com/jinambo/mohaji-assets/master/coffee_bg.jpg);
     background-position: center;
     background-size: cover;
     transition: opacity 2s;
